@@ -1,0 +1,63 @@
+.sidebar{
+	/*background: transparent;
+	opacity: 1*/
+	position: fixed;
+	height: 1000px;
+
+}
+.profilepic{
+	z-index: 999;
+	position: absolute;
+	top:-10px;
+	left:100px;
+}
+.title{
+	position: absolute;
+	top:210px;
+	left: 100px;
+	z-index: 999;
+}.sub-title{
+	position: absolute;
+	top:340px;
+	margin-left: -25px;
+	z-index: 999;
+	width: 390px;
+}
+#sub-nav{
+	position: absolute;
+	top:560px;
+	z-index: 999;
+	width: 400px;
+	left:-30px;
+}
+
+#nav{
+	position: absolute;
+	top:250px;
+	z-index: 999;
+	width:100%;
+	left: 55px;
+	text-align: center;
+	
+	
+}
+#license{
+	position: absolute;
+	top:585px;
+	z-index: 999;
+	width: 390px;
+	left: -30px;
+}
+
+#myCarousel img{
+	height: 70%;
+}
+
+a:hover{
+	text-decoration:none;
+	
+}
+#nav ul li a:hover{
+background-color: transparent;
+border: 0px;
+}
