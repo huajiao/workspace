@@ -1,7 +1,5 @@
 .sidebar{
-	/*background: transparent;
-	opacity: 1*/
-	position: fixed;
+	/*position: fixed;*/
 	height: 1000px;
 
 }
@@ -60,4 +58,98 @@ a:hover{
 #nav ul li a:hover{
 background-color: transparent;
 border: 0px;
+}
+#right{
+	/*overflow: scroll;*/
+	background-color: #ad;
+	margin-top: 20px;
+	/*border: 1px solid red;*/
+	}
+.fa-weibo{
+	margin-top: 5px;
+}
+.fa-rss{
+	margin-top: 3px;
+}
+@media screen and (max-width: 1110px){
+	#nav{
+		position: absolute;
+		top: 250px;
+		z-index: 999;
+		width: 260px;
+		left: 55px;
+		/*border: 1px solid red;*/
+	}
+}
+@media screen and (max-width: 1000px){
+	#right{
+	/*background-color: red;*/
+	margin-left: 150px;
+	}  
+}
+@media screen and (max-width: 900px){
+	#right{
+	/*background-color: yellow;*/
+	margin-left: 150px;
+	} 
+	#nav{
+		width: 230px;
+		/*border: 1px solid red;*/
+	} 
+}
+@media screen and (max-width: 890px){
+	#right{
+	/*background-color: green;*/
+	margin-top:9980px;
+	margin-left:15px;
+	} 
+	#nav{
+		width: 800px;
+		/*border: 1px solid red;*/
+	} 
+}
+@media screen and (max-width: 860px){
+	#right{
+	/*background-color: red;*/
+	margin-top: 750px;
+	margin-left: 25px;
+	}
+	#nav{
+		position: absolute;
+		top: 250px;
+		z-index: 999;
+		width: 400px;
+		left: 55px;
+		/*border: 1px solid red;*/
+	}  
+}
+@media screen and (max-width:880px) {
+  #right{
+	/*background-color: red;*/
+	margin-top: 710px;
+	}  
+	#nav{
+	position: absolute;
+	top:250px;
+	z-index: 999;
+	width:400px;
+	left: 55px;
+	text-align: center;
+	}
+}
+
+@media screen and (max-width:410px) {
+  #right{
+	/*background-color: red;*/
+	margin-top: 710px;
+	}  
+	#nav{
+	/*border: 1px solid  red;*/
+	width:100%;
+	margin-left:-50px;
+
+	}
+}
+.post-meta{
+	margin-top: 10px;
 }
