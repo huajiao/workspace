@@ -1,11 +1,9 @@
-
 body{
 	width: 100%;
 	height: 100%;
 	/*background-color: yellow;*/
 	/*overflow: scroll;*/
 }
-/*左侧导航*/
 #row-top{
 	width: 90px;
 	height: 90px;
@@ -15,20 +13,16 @@ body{
 	margin-bottom: 10px;
 	border: 8px solid #C0C0C0;
 	border-radius: 50%;
-	
-
 }
 a:link {color:blue;}		/* 未被访问的链接 */
 a:visited {color:#8C8C8C;}	/* 已被访问的链接 */
 a:hover {color:black;}	/* 鼠标指针移动到链接上 */
 
-
 #row-top-w{
 	font-size: 1.2em;
 	margin-left: -3px;
 	margin-top:25px;
-	color: grey;
-	
+	color: grey;	
 
 }
 #row-top-w a:link {color:blue;}	
@@ -40,15 +34,10 @@ a:hover {color:black;}	/* 鼠标指针移动到链接上 */
 	margin-top: -50px;
 	margin-left: -100px;
 }
-
 #sidebar{
 	margin: auto;
 
 }
-
-
-
-
 #t-navbar{
 	
 	margin-right: 18%;
@@ -56,10 +45,19 @@ a:hover {color:black;}	/* 鼠标指针移动到链接上 */
 }
 #b-navbar{
 	
-	margin-right: 18%;
+	margin-right: 25%;
+	
+}
+#a-navbar{
+	
+	margin-right: 25%;
 	
 }
 #b-navbar ul li{
+	border-left:1px solid #E8E8E8;
+	
+}
+#a-navbar ul li{
 	border-left:1px solid #E8E8E8;
 	
 }
@@ -78,7 +76,7 @@ a:hover {color:black;}	/* 鼠标指针移动到链接上 */
 	border-right:1px solid #E8E8E8;
 	
 	/*background-color: red;*/
-	margin-left: -20px;
+	margin-left: -15px;
 }
 #main_word{
 	height: 80%;
@@ -88,11 +86,33 @@ a:hover {color:black;}	/* 鼠标指针移动到链接上 */
 	overflow-y:auto;
 	
 }
-#buttom{
+#button{
 	width:100%;
 	margin-left: 16.7%;
 }
 #b-navbar a:link {color:blue;}		
-/*#b-navbar a:visited {color:#8C8C8C;}	*/
 #b-navbar a:hover {color:black;}	
 #b-navbar a:active {color:grey;}	
+
+#n-right{/*下面的导航*/
+	/*background-color: red;*/
+	margin-right: -10%;
+	padding: 0px;
+}
+#navber-right{
+	/*background-color: red;*/
+	margin-right: -12%;
+}
+#b-foot{
+	/*background-color: blue;*/
+	/*margin-left: 15px;*/
+	margin-right: 150px;
+}
+#b-top{
+	/*background-color: blue;*/
+	/*margin-left: 15px;*/
+	margin-right: 150px;
+}
+@media screen and (max-width: 1000px){
+	
+}
