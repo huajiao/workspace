@@ -20,17 +20,20 @@ body{
 }
 a:link {color:blue;}		/* 未被访问的链接 */
 a:visited {color:#8C8C8C;}	/* 已被访问的链接 */
-a:hover {color:blue;}	/* 鼠标指针移动到链接上 */
-a:active {color:grey;}	
+a:hover {color:black;}	/* 鼠标指针移动到链接上 */
+
 
 #row-top-w{
 	font-size: 1.2em;
 	margin-left: -3px;
 	margin-top:25px;
-	color: red;
+	color: grey;
 	
 
 }
+#row-top-w a:link {color:blue;}	
+#row-top-w a:visited {color:#8C8C8C;}
+#row-top-w a:hover {color:black;}	
 
 #left{
 	
@@ -78,7 +81,7 @@ a:active {color:grey;}
 	margin-left: -20px;
 }
 #main_word{
-	height: 85%;
+	height: 80%;
 	width: 102.5%;
 	margin-top: 1%;
 	overflow:hidden;
@@ -89,3 +92,7 @@ a:active {color:grey;}
 	width:100%;
 	margin-left: 16.7%;
 }
+#b-navbar a:link {color:blue;}		
+/*#b-navbar a:visited {color:#8C8C8C;}	*/
+#b-navbar a:hover {color:black;}	
+#b-navbar a:active {color:grey;}	
