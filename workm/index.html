@@ -81,7 +81,7 @@
    </div>
 </nav>
 
-<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation" id="button">
+<!-- <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation" id="button">
 		  	<div class="navbar-header">
 			    <button type="button" class="navbar-toggle " data-toggle="collapse" data-target="#b-navbar"id="b-top">
 					<span class="icon-bar"></span>
@@ -102,7 +102,7 @@
 				</ul>
 			</div>
 		  </div>
-		</nav> 
+		</nav>  -->
 	<!-- // <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
  //    <script src="dist/js/bootstrap.min.js"></script> -->
 <!--  <div class="container">
@@ -139,84 +139,84 @@
    </div>
 </div>
  -->
+
 <table class="table">
-   <caption class="text-center">校外联系表</caption>
+   <caption>上下文表格布局</caption>
    <thead>
       <tr>
-         <th>学号</th>
-         <th>姓名</th>
-         <th>电话</th>
+         <th>产品</th>
+         <th>付款日期</th>
+         <th>状态</th>
       </tr>
    </thead>
    <tbody>
-      <tr>
-         <td>20110501</td>
-         <td>joan</td>
-         <td>13524859752</td>
+      <tr class="active">
+         <td>产品1</td>
+         <td>23/11/2013</td>
+         <td>待发货</td>
       </tr>
-      <tr>
-         <td>20110502</td>
-         <td>anna</td>
-         <td>14598563257</td>
+      <tr class="success">
+         <td>产品2</td>
+         <td>10/11/2013</td>
+         <td>发货中</td>
+      </tr>
+      <tr  class="warning">
+         <td>产品3</td>
+         <td>20/10/2013</td>
+         <td>待确认</td>
+      </tr>
+      <tr  class="danger">
+         <td>产品4</td>
+         <td>20/10/2013</td>
+         <td>已退货</td>
       </tr>
    </tbody>
 </table>
 
-<table class="table table-striped">
-   <caption class="text-center">条纹表格布局</caption>
-   <thead>
-      <tr>
-         <th>名称</th>
-         <th>城市</th>
-         <th>密码</th>
-      </tr>
-   </thead>
-   <tbody>
-      <tr>
-         <td>Tanmay</td>
-         <td>Bangalore</td>
-         <td>560001</td>
-      </tr>
-      <tr>
-         <td>Sachin</td>
-         <td>Mumbai</td>
-         <td>400003</td>
-      </tr>
-      <tr>
-         <td>Uma</td>
-         <td>Pune</td>
-         <td>411027</td>
-      </tr>
-   </tbody>
-</table>
 
-<table class="table table-hover table-bordered">
-   <caption>悬停表格布局</caption>
-   <thead>
-      <tr>
-         <th>名称</th>
-         <th>城市</th>
-         <th>密码</th>
-      </tr>
-   </thead>
-   <tbody>
-      <tr>
-         <td>Tanmay</td>
-         <td>Bangalore</td>
-         <td>560001</td>
-      </tr>
-      <tr>
-         <td>Sachin</td>
-         <td>Mumbai</td>
-         <td>400003</td>
-      </tr>
-      <tr>
-         <td>Uma</td>
-         <td>Pune</td>
-         <td>411027</td>
-      </tr>
-   </tbody>
-</table>
+
+<form role="form">
+   <div class="form-group">
+      <label for="name">名称</label>
+      <input type="text" class="form-control" id="name" 
+         placeholder="请输入名称">
+   </div>
+   <div class="form-group">
+      <label for="inputfile">文件输入</label>
+      <input type="file" id="inputfile">
+      <p class="help-block">这里是块级帮助文本的实例。</p>
+   </div>
+   <div class="checkbox">
+      <label>
+      <input type="checkbox"> 请打勾
+      </label>
+   </div>
+   <button type="submit" class="btn btn-default">提交</button>
+</form>
+
+
+<form  role="form" class="form-inline">
+   <div class="form-group">
+      <label class="sr-only" for="name">名称</label>
+      <input type="text" class="form-control" id="name" 
+         placeholder="请输入名称">
+   </div>
+   <div class="form-group">
+      <label class="sr-only" for="inputfile">文件输入</label>
+      <input type="file" id="inputfile">
+   </div>
+   <div class="checkbox">
+      <label>
+      <input type="checkbox"> 请打勾
+      </label>
+   </div>
+   <button type="submit" class="btn btn-default">提交</button>
+</form>
+
+
+
+
+
 
 
     <!-- JavaScript 放置在文档最后面可以使页面加载速度更快 -->
